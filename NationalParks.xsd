@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="XMLSchema1"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://chriscor04.github.io/CSE445-Assignment4/NationalParks"
+    xmlns="https://chriscor04.github.io/CSE445-Assignment4/NationalParks"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
 	<xs:element name="NationalParks">
 		<xs:complexType>
 			<xs:sequence>
